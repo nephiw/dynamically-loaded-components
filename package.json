@@ -1,0 +1,40 @@
+{
+  "name": "dynamically-loaded-components",
+  "version": "0.2.0",
+  "description": "A series of test files for dynamically loading and rendering modules within ngx - this was loosely based on https://github.com/DenisVuyka/ng2-dynamic-content",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"yarn serve\" ",
+    "serve": "wsrv -s -o -l",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular2",
+    "ngx",
+    "dynamic",
+    "template"
+  ],
+  "author": "Nephi Wright <nephiw@gmail.com>",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "@angular/common": "4.4.6",
+    "@angular/compiler": "4.4.6",
+    "@angular/core": "4.4.6",
+    "@angular/forms": "4.4.6",
+    "@angular/http": "4.4.6",
+    "@angular/platform-browser": "4.4.6",
+    "@angular/platform-browser-dynamic": "4.4.6",
+    "core-js": "2.4.1",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.4.2",
+    "systemjs": "0.20.15",
+    "zone.js": "0.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.14",
+    "concurrently": "3.5.0",
+    "typescript": "2.4.2",
+    "wsrv": "0.1.7"
+  }
+}
